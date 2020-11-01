@@ -1,0 +1,120 @@
+/*
+a {}
+*/
+
+/*aside {
+    width: 27%;
+    float: right;
+}
+*/
+
+/*
+body {
+    background-color: grey;
+}
+*/
+
+div.half{
+    width: 50%;
+}
+
+div.third{
+    display: inline-block;
+    width: 33%;
+}
+
+footer {
+    clear: both;
+}
+
+form {
+    width: 80%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+form button{
+    display: inline-block;
+    width: 40%;
+    border: 1% solid;
+    padding: 0;
+    margin: 0 4% 0 4%;
+}
+
+input {
+    display: inline-block;
+    width: 40%;
+    border: 1% solid;
+    padding: 0;
+    margin: 0 4% 0 4%;
+}
+
+form label{
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+    border: 1% solid;
+    padding: 0;
+    margin: 0 4% 0 4%;
+}
+
+form textarea{
+    display: inline-block;
+    width: 40%;
+    border: 1% solid;
+    padding: 0;
+    margin: 0 4% 0 4%;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+    text-align: left;
+    font-size: xx-large;
+    font-style: initial;
+}
+
+h3 {
+    text-align: center;
+    font-size: large;
+    font-style: initial;
+}
+
+/*
+header {}
+*/
+
+img{
+    float: left;
+    width: 33%;
+    @media only screen and (max-width: 776px) {
+        img{
+            width: 100%;
+        }
+    }
+}
+
+/*
+li {}
+*/
+
+/*
+main {
+    width: 72%;
+    float: left;
+}
+*/
+
+
+/*
+nav {}
+*/
+
+section {
+    clear: both;
+}
+
+/*
+ul {}
+*/

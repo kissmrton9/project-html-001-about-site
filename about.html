@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="about me">
+    <meta name="description" content="a bit longer description of my life, strength and values">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bemutatkozó oldal</title>
+</head>
+<body>
+    <a name="top"></a>
+    <nav style="float: right;">
+        <ul>
+            <li>
+                <a href="index.html">Főoldal</a>
+            </li>
+            <li>
+                <a href="works.html">Munkáim</a>
+            </li>
+            <li>
+                <a href="gallery.html">Galéria</a>
+            </li>
+            <li>
+                <a href="about.html">Rólam</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div><img src="images/azenkepem" alt="Én"></div>
+    <main>
+        <header>
+            <h1>Bemutatkozás</h1>
+            <p>Mit csináltam eddig, mik az erősségeim, mi a hobbim, milyen nyelveket beszélek. 
+                Használd a megfelelő HTML elemeket a felsorolásokhoz, legyen benne számmal, 
+                ponttal való felsorolás is.</p>
+        </header>
+        <p>Mit csináltam eddig</p>
+        <ul>
+            <li></li>
+        </ul>
+        <p>mik az erősségeim</p>
+        <ol>
+            <li></li>
+        </ol>
+        <section>
+            <header>
+                <h3>Ezen az űrlapon üzenetet küldhetsz nekem:</h3>
+            </header>
+            <div>
+                <form action="form_action.html" method="get" target="_self">
+                    <label for="name">Név:</label><input type="text" id="name" minlength="5" maxlength="63" required>
+                    <label for="email">Email:</label><input type="email" name="email" id="email" required>
+                    <label for="message">Üzenet:</label><input name="message" id="message" minlength="20" maxlength="511" required></input>
+                    <input type="reset" value="Törlés"><input type="submit" value="Küldés">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="#top">
+                <button type="button"><img src="images/up.png" alt="Fel"></button>
+            </a>
+        </nav>
+    </footer>
+    
+</body>
+</html>
