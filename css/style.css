@@ -86,12 +86,24 @@ header {}
 */
 
 img{
+    display: inline-block;
+    width: 33%;
+}
+
+@media only screen and (max-width: 776px) {
+    img{
+        width: 100%;
+    }
+}
+
+img.float{
     float: left;
     width: 33%;
-    @media only screen and (max-width: 776px) {
-        img{
-            width: 100%;
-        }
+}
+
+@media screen and (max-width: 776px) {
+    img.float{
+        width: 100%;
     }
 }
 
@@ -115,6 +127,7 @@ section {
     clear: both;
 }
 
-/*
-ul {}
-*/
+
+ul {
+    margin-left: 4%;
+}
