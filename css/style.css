@@ -20,7 +20,11 @@ div.half{
 
 div.third{
     display: inline-block;
-    width: 33%;
+    width: 32%;
+    text-align: center;
+    border: solid 1% darkblue;
+    border-radius: 3px;
+    box-shadow: 0 0 3px black;
 }
 
 footer {
@@ -87,10 +91,10 @@ header {}
 
 img{
     display: inline-block;
-    width: 33%;
-}
+    width: 32%;
+    border: solid 1%}
 
-@media only screen and (max-width: 776px) {
+@media only screen and (max-width: 600px) {
     img{
         width: 100%;
     }
@@ -98,10 +102,10 @@ img{
 
 img.float{
     float: left;
-    width: 33%;
-}
+    width: 32%;
+    border: solid 1%}
 
-@media screen and (max-width: 776px) {
+@media screen and (max-width: 600px) {
     img.float{
         width: 100%;
     }
